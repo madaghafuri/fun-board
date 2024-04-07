@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite + TS</title>
+  </head>
+  <body style="margin: 0; padding: 0; overflow: hidden; position: relative">
+    <canvas id="canvas-editor" style="width: 100vw; height: 100vh"></canvas>
+    <input
+      id="image-input"
+      type="file"
+      accept="image/*"
+      style="position: absolute; top: 3px; right: 3px"
+    />
+    <script src="/lib/fabric.min.js"></script>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
